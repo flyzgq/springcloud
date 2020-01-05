@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-config-3344/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-config-client-3355/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-eureka-7001/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-eureka-7001/src/main" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-eureka-7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-eureka-7001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-eureka-7002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-eureka-7002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-eureka-7003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-eureka-config-7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-zuul-gateway-9527/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloud-api/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloud-api/src/main" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloud-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloud-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloud-consumer-dept-80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloud-consumer-dept-80/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloud-consumer-dept-80/src/main" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloud-consumer-dept-80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloud-consumer-dept-80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloud-consumer-dept-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloud-consumer-hystrix-dashboard-9001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloud-provider-config-dept-8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloud-provider-dept-8001/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloud-provider-dept-8001/src/main" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloud-provider-dept-8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloud-provider-dept-8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloud-provider-dept-8002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloud-provider-dept-8003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloud-provider-dept-hystrix-8001/src/main/java" charset="UTF-8" />
+  </component>
+</project>

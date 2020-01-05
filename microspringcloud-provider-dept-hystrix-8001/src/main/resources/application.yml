@@ -1,0 +1,37 @@
+server:
+  port: 8001
+
+
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml #mybatis配置文件所在路径
+  type-aliases-package: com.fly.springcloud.entities #所有entity别名类所在的包
+  mapper-locations:
+    - classpath:mybatis/mapper/**/*.xml              #mapper映射文件
+spring:
+  application:
+    name: microserivecloud-dept
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://mysqladdr:3306/cloudDB01
+    username: root
+    password: 123456
+    dbcp2:
+      min-idle: 5                                   #最小连接数
+      initial-size: 5                               #初始化连接数
+      max-total: 5                                  #最大连接数
+      max-wait-millis: 200                          #等待连接的超时时间
+eureka:
+  client:
+    service-url:
+      #defaultZone: http://localhost:7001/eureka/      #单机版 将服务注册到eureka服务中
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/ #eureka集群版 将服务注册到eureka服务中
+  instance:
+    instance-id: microserivecloud-dept8001-hystrix
+    prefer-ip-address: true    #访问路径显示ip
+
+info:
+  app.name: fly-microserivecloud
+  company.name: www.fly.com
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
